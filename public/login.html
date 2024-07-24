@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Página de Login | AjudaEles</title>
+</head>
+<body>
+    
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <div>
+                    <h1>cadastre-se</h1>
+                </div>
+                <div class="form-cadastro">
+                    <input type="text" placeholder="Nome Administrador">
+                    <input type="email" placeholder="Nome da ONG">
+                    <input type="password" placeholder="E-mail">
+                    <input type="text" placeholder="Celular">
+                    <input type="text" placeholder="Senha">
+                    <input type="password" placeholder="Confirmação da Senha">
+                </div>
+                <p>Assim que se registrar entre no sistema e cadastre a quantidade de moradores das sua ONG, as contas e fique de olho nos gráficos.</p>
+                <button>CONTINUAR</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <div class="logo_ini">
+                    <img class="logo-login" src="/src/assets/img/LOGO_AjudaEles.svg" alt="Logo AjudaEles">
+                </div>
+                <span>entre com seu email e senha de cadastro</span>
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <a href="#">Esqueceu sua senha?</a>
+                <button><a href="./home.html">Entrar</a></button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-right">
+                    <h1>Que bom que voltou!</h1>
+                    <p>Entre com seu e-mail e continue fazendo diferença!</p>
+                    <button class="hidden" id="register">Entrar</button>
+                </div>
+                <div class="toggle-panel toggle-left">
+                    <h1>Obrigado por se importar!</h1>
+                    <p>Junte-se a nós e construa um mundo melhor para todos os bichinhos!</p>
+                    <button class="hidden" id="login">Registre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/src/js/script.js"></script>
+</body>
+</html>

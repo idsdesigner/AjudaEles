@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/src/css/styleHome.css">
+    <title>Home Dashboard | AjudaEles</title>
+</head>
+<body>
+    
+    <div class="container">
+        <aside class="left-section">
+            <div class="logo">
+                <button class="menu-btn" id="menu-close">
+                    <i class='bx bx-log-out-circle'></i>
+                </button>
+                <a href="#">
+                    <img src="/src/assets/img/LOGO-horizontal.svg">
+                </a>
+            </div>
+
+            <div class="sidebar">
+                <div class="item" id="active">
+                    <i class='bx bx-home-alt-2' ></i>
+                    <a href="#">Visão Geral</a>
+                </div>
+
+                <div class="item">
+                    <i class='bx bx-grid-alt' ></i>
+                    <a href="#">Peludos & Cia</a>
+                </div>
+                <div class="item">
+                    <i class='bx bxs-data' ></i>
+                    <a href="#">Estoque e Financeiro</a>
+                </div>
+                <div class="item">
+                    <i class='bx bxs-cog' ></i>
+                    <a href="#">Configurações</a>
+                </div>
+
+            </div>
+
+            <div class="pic">
+                <img src="/src/assets/img/IMG-adotando.svg">
+            </div>
+
+            <div class="upgrade">
+                <h5>Aumente seu limite</h5>
+                <div class="link">
+                    <a href="#">Seja <b>Premium</b></a>
+                    <i class='bx bx-link-external'></i>
+                </div>
+            </div>
+
+        </aside>
+
+        <main>
+
+            <!-- Visão Geral -->
+                <button class="menu-btn" id="menu-open">
+                    <i class='bx bx-menu'></i>
+                </button>
+
+                <h1>Visão Geral</h1>
+
+                <div class="analyse">
+                    <div class="saldo-caixa">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Valor em Caixa</h3>
+                                <h1>$150,24</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+30%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quant-racao">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Quantidade de Ração</h3>
+                                <h1>250kg</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+20%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="medicamentos">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Medicamentos</h3>
+                                <h1>20 Caixas</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38" r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+10%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Novos Moradores -->
+
+                <div class="novos-moradores">
+                    <h2>Novos Moradores</h2>
+                    <div class="moradores-list">
+                        <div class="moradores">
+                            <img src="/src/assets/img/Pitico.png">
+                            <h2>Pitico</h2>
+                            <p>2 Anos</p>
+                        </div>
+                        <div class="moradores">
+                            <img src="/src/assets/img/Nina.png">
+                            <h2>Nina</h2>
+                            <p>3 Anos</p>
+                        </div>
+                        <div class="moradores">
+                            <img src="/src/assets/img/Tobias.png">
+                            <h2>Tobias</h2>
+                            <p>2 Anos</p>
+                        </div>
+                        <div class="moradores">
+                            <img src="/src/assets/img/plus.png">
+                            <h2>Add</h2>
+                            <p>Novo Morador</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Entradas-->
+                <div class="entradas-recentes">
+                    <h2>Entradas</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome Doador/Fornecedor</th>
+                                <th>Doação</th>
+                                <th>Quantidade</th>
+                                <th>Status</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <a href="#">Mostrar Tudo</a>
+                </div>
+
+        </main>
+
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                        <span class="bx bx-menu"></span>
+                </button>
+                <div class="dark-mode">
+                        <span class="bx bxs-sun active"></span>
+                        <span class="bx bxs-moon"></span>
+                </div>
+
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>Ana</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="/src/assets/img/foto_Ana.png">
+                    </div>
+                </div>
+
+            </div>
+            <!--fim nav-->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="/src/assets/img/LOGO_AjudaEles.svg">
+                </div>
+            </div>
+
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Lembretes</h2>
+                    <span class="bx bxs-bell-ring">
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="bx bxs-plus-square"></span>
+                    </div>
+                    <div class="icon">
+                        <span class="bx bxs-donate-heart"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <script src="/src/js/orders.js"></script>
+    <script src="/src/js/scriptHome.js"></script>
+    <script src="/src/js/index.js"></script>
+
+</body>
+</html>
